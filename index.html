@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KupenStack</title>
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+</head>
+<body>
+	
+	<nav>
+		<div class="menu">
+			<!-- <div class="menu-item">About</div>
+			<div class="menu-item">Blogs</div> -->
+			<!-- <a href="resources.html"><div class="menu-item">Resources</div></a> -->
+			<a href="contacts.html"><div class="menu-item">Contact</div></a>
+		</div>
+	</nav>
+
+
+	<div id="intro">
+
+		<div id="repo">
+			<div>
+				<h1>KupenStack</h1>
+				<h2>Kubernetes-native Openstack</h2>
+			</div>
+			<div>
+				<a href="https://github.com/Kupenstack/kupenstack" class="github-button"><small>View project on</small> GitHub</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="page">
+		<div id="body">
+
+		<br>
+		<p>KupenStack is an open-source project that provides Kubernetes-native OpenStack on top of a Kubernetes cluster, in form of containerized Openstack cluster. With a vision of lifecycle management and usage through custom resources in Kubernetes thus abstracting Openstack complexities and automating IaaS use cases.</p>
+
+		<p>Kupenstack does not modify Kubernetes or OpenStack, instead, it uses their standard APIs in its control loops to provide k8s-native IaaS experience to the users.</p>
+		<br>
+
+		
+		
+		<h2>// Benefits of Kubernetes-native Openstack</h2><br><br>
+
+		<div class="cards">
+			<div class="card">
+				<b>Provides Self-provisioned Openstack cluster</b><br><br>
+				kupenstack self-deploys its own Openstack cluster. Using single Cluster Approach.
+				The ook cluster has containerized openstack components making them pluggable.
+			</div>
+			<div class="card">
+				<b>Provides cloud-native Operations on Openstack as automation</b><br><br>
+				Features provided by Kupenstack are built and wrapped following cloud-native principles and abstracting behind controller loops and custom resources.
+			</div>
+			<div class="card">
+				<b>Gives unified API</b><br><br>
+				Covering Openstack with CRs gives interoperability to use kubectl(/k8s apis) as a single tool for cloud management.
+			</div>			
+		</div>
+		<br><br>
+
+		<h2>// Plugable OpenStack</h2>
+		<p>In Kupenstack, all openstack components are containerized and are very pluggable as long as they are compatible with Openstack-helm container images. KupenStack sticks to use OpenStack-Helm project as a baseline to deploy Openstack cluster providing <b>trust to prevent vendor lockings</b>.</p>
+		<br>
+
+		<h2>// Wider Ecosystem</h2>
+		<p>KupenStack aims on to ensuring a wider ecosystem for OpenStack cloud by enabling possible k8s toolings like helm, prometheus, Grafana, GitOps, etc with OpenStack VMs and other resources.</p>
+		<br>
+
+
+
+		</div>
+
+	</div>
+
+	<div id="footer">
+		<div class="footer-menu">
+			<a class="icon fa fa-2x fa-twitter" href="https://twitter.com/KupenStack"></a>
+			<a class="icon fa fa-2x fa-github" href="https://github.com/kupenstack/kupenstack"></a>
+			<a class="icon fa fa-2x fa-youtube" href="https://www.youtube.com/channel/UCgmW7YzwdCT9gYA9ldBDfzg"></a>
+			<a class="icon fa fa-2x fa-linkedin" href="https://www.linkedin.com/company/kupenstack"></a>
+		</div>
+		
+	</div>
+</body>
+</html>
